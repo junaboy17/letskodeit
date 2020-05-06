@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 import functions.HomePageFunction;
 import functions.PracticePageFunction;
 import mainFunction.Util;
-import xpath.HomePage;
-import xpath.PracticePage;
+import xpath.HomePageXpath;
+import xpath.PracticePageXpath;
 
 public class testList extends Util{
 	
-	PracticePage pp = new PracticePage();
-	HomePage hp = new HomePage();
+	PracticePageXpath pp = new PracticePageXpath();
+	HomePageXpath hp = new HomePageXpath();
 	HomePageFunction hpf = new HomePageFunction();
 	PracticePageFunction ppf = new PracticePageFunction();
 	

@@ -1,10 +1,10 @@
 package functions;
 
 import mainFunction.Util;
-import xpath.PracticePage;
+import xpath.PracticePageXpath;
 
 public class PracticePageFunction extends Util{
-	PracticePage pp = new PracticePage();
+	PracticePageXpath pp = new PracticePageXpath();
 	
 			
 	
@@ -40,5 +40,10 @@ public class PracticePageFunction extends Util{
 	}
 	public void clickHondaCheckBOx() {
 		clickElement(pp.hondaCheckBox);
+	}
+	
+	public void clickNewWindow() {
+		clickElement(pp.openWindow);
+		
 	}
 }

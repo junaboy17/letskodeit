@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGTest.VerifyRadioButton">
+      <class name="testNGTest.MouseHoverTest">
         <methods>
-          <include name="VerifyRadioButton"/>
+          <include name="testMouseHover"/>
         </methods>
-      </class> <!-- testNGTest.VerifyRadioButton -->
+      </class> <!-- testNGTest.MouseHoverTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

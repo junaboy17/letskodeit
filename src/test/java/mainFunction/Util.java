@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class Util extends MainDriver{
 
@@ -72,5 +73,13 @@ public class Util extends MainDriver{
 		}
 	}
 	
+	public void tearDown() {
+		driver.quit();
+	}
 	
+	public WebElement getWebElement(String xpath) {
+		return driver.findElement(By.xpath(xpath));
+		
+		
+	}
 }

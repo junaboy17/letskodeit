@@ -1,10 +1,10 @@
 package functions;
 
 import mainFunction.Util;
-import xpath.HomePage;
+import xpath.HomePageXpath;
 
 public class HomePageFunction extends Util {
-	HomePage hp = new HomePage();
+	HomePageXpath hp = new HomePageXpath();
 	
 
 	public void clickPracticeaButton() {
